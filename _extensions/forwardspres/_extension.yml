@@ -1,0 +1,6 @@
+title: forwardspres
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [default, forwardspres.scss] 
