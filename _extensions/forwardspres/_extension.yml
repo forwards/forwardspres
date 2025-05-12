@@ -4,3 +4,9 @@ contributes:
   formats:
     revealjs:
       theme: [default, forwardspres.scss] 
+      highlight-style: forwardspres.theme
+      title-slide-attributes:
+        data-background-color: "#200F48"
+        data-background-image: forwards_hex_solid_border.svg
+        data-background-size: 7%
+        data-background-position: 97% 5%
