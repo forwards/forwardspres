@@ -14,7 +14,9 @@ format:
 
 ## Introduction
 
-This is a Quarto presentation format that is consistent with R Fordward's brand.
+This is a Quarto presentation format that is consistent with R Forward's brand.
+
+<https://forwards.github.io>
 
 It features the Forwards logo on the title slide.
 
@@ -77,7 +79,7 @@ penguins %>%
   )
 ```
 
-## Callouts {.smaller60}
+## Callouts {.smaller70}
 
 There are custom colours for callouts: 
 
@@ -102,7 +104,7 @@ Be careful about doing this
 :::
 
 
-## Callouts {.smaller60 .inverse}
+## Callouts {.smaller70 .inverse}
 
 There are custom colours for callouts: 
 
