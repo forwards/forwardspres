@@ -51,9 +51,9 @@ There's also a colour for short [links](https://github.com/forwards/forwardspres
 
 - The inline code and link colours change when the inverse class is applied.
 
-## Code {.smaller90}
+## Code
 
-The extension includes a custom syntax highlighting theme (borrowed from [warwickpres](https://github.com/Warwick-Stats-Resources/warwickpres)):
+The extension includes a custom syntax highlighting theme=:
 
 ```{r}
 #| echo: true
