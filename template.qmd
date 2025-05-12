@@ -7,9 +7,9 @@ date-format: long
 footer: <https://forwards.github.io>
 format:
   forwardspres-revealjs: default
-# To remove logo from title slide, comment out line 21 
+# To remove logo from title slide, comment out following line 
 # in `"_extensions/forwards/forwardspres/_extension.yml"`
-# (`data-background-image: warwick-logo-white.png`)
+#   `data-background-image: forwards_hex_solid_border.svg`
 ---
 
 ## Introduction
