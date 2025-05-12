@@ -79,7 +79,7 @@ penguins %>%
   )
 ```
 
-## Callouts {.smaller70}
+## Callouts {.smaller80}
 
 There are custom colours for callouts: 
 
@@ -87,16 +87,16 @@ There are custom colours for callouts:
 A note
 :::
 
-:::{.callout-warning}
-A warning
+:::{.callout-tip}
+This is a good idea
 :::
 
 :::{.callout-important}
 Something important
 :::
 
-:::{.callout-tip}
-This is a good idea
+:::{.callout-warning}
+A warning
 :::
 
 :::{.callout-caution}
@@ -104,7 +104,7 @@ Be careful about doing this
 :::
 
 
-## Callouts {.smaller70 .inverse}
+## Callouts {.smaller80 .inverse}
 
 There are custom colours for callouts: 
 
@@ -112,16 +112,16 @@ There are custom colours for callouts:
 A note
 :::
 
-:::{.callout-warning}
-A warning
+:::{.callout-tip}
+This is a good idea
 :::
 
 :::{.callout-important}
 Something important
 :::
 
-:::{.callout-tip}
-This is a good idea
+:::{.callout-warning}
+A warning
 :::
 
 :::{.callout-caution}
@@ -132,19 +132,23 @@ Be careful about doing this
 
 ::: {columns}
 ::: {.column .col-box-yellow width="32%"}
-Box 1
+### Box 1
 
 Use class `.col-box-{color}` to apply colour box styling, e.g. `.col-box-yellow`
 :::
 
 ::: {.column .col-box-peach width="32%"}
-Box 2
+### Box 2
 
 Default height is 450px
+
+This div has class `.col-box-peach`
 :::
 
 ::: {.column .col-box-orange width="32%"}
-Box 3
+### Box 3
+
+This div has class `.col-box-orange`
 :::
 :::
 
@@ -160,6 +164,8 @@ This column has class `.col-box-yellow-tall`
 :::: {.column width="49%"}
 :::{.col-box-peach-short}
 Or to divs within columns to create stacks
+
+This div has class `.col-box-peach-short`
 :::
 
 :::{.col-box-orange-short}
@@ -182,6 +188,8 @@ This column has class `.col-box-plum-tall`
 :::: {.column width="49%"}
 :::{.col-box-pink-short}
 Or to divs within columns to create stacks
+
+This div has class `.col-box-pink-short`
 :::
 
 :::{.col-box-purple-short}
