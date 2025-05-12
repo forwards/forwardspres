@@ -1,0 +1,241 @@
+/* quarto syntax highlight colors */
+:root {
+  --quarto-hl-ot-color: #494957;
+  --quarto-hl-at-color: #59346D;
+  --quarto-hl-ss-color: #529A8A;
+  --quarto-hl-an-color: #494957;
+  --quarto-hl-fu-color: #0090AF;
+  --quarto-hl-st-color: #529A8A;
+  --quarto-hl-cf-color: #C5651D;
+  --quarto-hl-op-color: #494957;
+  --quarto-hl-er-color: #AD2B32;
+  --quarto-hl-bn-color: #AD2B32;
+  --quarto-hl-al-color: #AD2B32;
+  --quarto-hl-va-color: #2E2E2F;
+  --quarto-hl-bu-color: inherit;
+  --quarto-hl-ex-color: inherit;
+  --quarto-hl-pp-color: #AD2B32;
+  --quarto-hl-in-color: #494957;
+  --quarto-hl-vs-color: #529A8A;
+  --quarto-hl-wa-color: #494957;
+  --quarto-hl-do-color: #494957;
+  --quarto-hl-im-color: #59346D;
+  --quarto-hl-ch-color: #529A8A;
+  --quarto-hl-dt-color: #AD2B32;
+  --quarto-hl-fl-color: #AD2B32;
+  --quarto-hl-co-color: #494957;
+  --quarto-hl-cv-color: #494957;
+  --quarto-hl-cn-color: #C5651D;
+  --quarto-hl-sc-color: #494957;
+  --quarto-hl-dv-color: #AD2B32;
+  --quarto-hl-re-color: #0090AF;
+  --quarto-hl-kw-color: #2E2E2F;
+}
+
+/* other quarto variables */
+:root {
+  --quarto-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* syntax highlight based on Pandoc's rules */
+pre > code.sourceCode > span {
+  color: #2E2E2F;
+}
+
+code.sourceCode > span {
+  color: #2E2E2F;
+}
+
+div.sourceCode,
+div.sourceCode pre.sourceCode {
+  color: #2E2E2F;
+}
+
+/* Normal */
+code span {
+  color: #2E2E2F;
+}
+
+/* Alert */
+code span.al {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* Annotation */
+code span.an {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* Attribute */
+code span.at {
+  color: #59346D;
+  font-style: inherit;
+}
+
+/* BaseN */
+code span.bn {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* BuiltIn */
+code span.bu {
+  font-style: inherit;
+}
+
+/* ControlFlow */
+code span.cf {
+  color: #C5651D;
+  font-style: inherit;
+}
+
+/* Char */
+code span.ch {
+  color: #529A8A;
+  font-style: inherit;
+}
+
+/* Constant */
+code span.cn {
+  color: #C5651D;
+  font-style: inherit;
+}
+
+/* Comment */
+code span.co {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* CommentVar */
+code span.cv {
+  color: #494957;
+  font-style: italic;
+}
+
+/* Documentation */
+code span.do {
+  color: #494957;
+  font-style: italic;
+}
+
+/* DataType */
+code span.dt {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* DecVal */
+code span.dv {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* Error */
+code span.er {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* Extension */
+code span.ex {
+  font-style: inherit;
+}
+
+/* Float */
+code span.fl {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* Function */
+code span.fu {
+  color: #0090AF;
+  font-style: inherit;
+}
+
+/* Import */
+code span.im {
+  color: #59346D;
+  font-style: inherit;
+}
+
+/* Information */
+code span.in {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* Keyword */
+code span.kw {
+  color: #2E2E2F;
+  font-style: inherit;
+}
+
+/* Operator */
+code span.op {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* Other */
+code span.ot {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* Preprocessor */
+code span.pp {
+  color: #AD2B32;
+  font-style: inherit;
+}
+
+/* RegionMarker */
+code span.re {
+  color: #0090AF;
+  font-style: inherit;
+}
+
+/* SpecialChar */
+code span.sc {
+  color: #494957;
+  font-style: inherit;
+}
+
+/* SpecialString */
+code span.ss {
+  color: #529A8A;
+  font-style: inherit;
+}
+
+/* String */
+code span.st {
+  color: #529A8A;
+  font-style: inherit;
+}
+
+/* Variable */
+code span.va {
+  color: #2E2E2F;
+  font-style: inherit;
+}
+
+/* VerbatimString */
+code span.vs {
+  color: #529A8A;
+  font-style: inherit;
+}
+
+/* Warning */
+code span.wa {
+  color: #494957;
+  font-style: italic;
+}
+
+.prevent-inlining {
+  content: "</";
+}
+
+/*# sourceMappingURL=cee74bb3e55b5c714b4da0d2caa7b104.css.map */
