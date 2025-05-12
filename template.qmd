@@ -53,7 +53,7 @@ There's also a colour for short [links](https://github.com/forwards/forwardspres
 
 ## Code
 
-The extension includes a custom syntax highlighting theme=:
+The extension includes a custom syntax highlighting theme:
 
 ```{r}
 #| echo: true
@@ -129,19 +129,19 @@ Be careful about doing this
 ## Columns with backgrounds
 
 ::: {columns}
-::: {.column .col-box-aubergine-light width="32%"}
+::: {.column .col-box-yellow width="32%"}
 Box 1
 
-Use class `.col-box-{color}` to apply colour box styling, e.g. `.col-box-aubergine-light`
+Use class `.col-box-{color}` to apply colour box styling, e.g. `.col-box-yellow`
 :::
 
-::: {.column .col-box-teal-light width="32%"}
+::: {.column .col-box-peach width="32%"}
 Box 2
 
 Default height is 450px
 :::
 
-::: {.column .col-box-ruby-light width="32%"}
+::: {.column .col-box-orange width="32%"}
 Box 3
 :::
 :::
@@ -149,19 +149,19 @@ Box 3
 ## Columns with backgrounds: tall and short
 
 ::::: {columns}
-:::: {.column .col-box-aubergine-light-tall width="49%"}
+:::: {.column .col-box-yellow-tall width="49%"}
 Colour box styling can be applied to entire columns
 
-This column has class `.col-box-aubergine-light-tall`
+This column has class `.col-box-yellow-tall`
 ::::
 
 :::: {.column width="49%"}
-:::{.col-box-ruby-light-short}
+:::{.col-box-peach-short}
 Or to divs within columns to create stacks
 :::
 
-:::{.col-box-teal-light-short}
-This div has class `.col-box-teal-light-short`
+:::{.col-box-orange-short}
+This div has class `.col-box-orange-short`
 :::
 
 ::::
@@ -171,19 +171,19 @@ This div has class `.col-box-teal-light-short`
 ## Columns with backgrounds: tall and short {.inverse}
 
 ::::: {columns}
-:::: {.column .col-box-blue-dark-tall width="49%"}
+:::: {.column .col-box-plum-tall width="49%"}
 Colour box styling can be applied to entire columns
 
-This column has class `.col-box-blue-dark-tall`
+This column has class `.col-box-plum-tall`
 ::::
 
 :::: {.column width="49%"}
-:::{.col-box-teal-dark-short}
+:::{.col-box-pink-short}
 Or to divs within columns to create stacks
 :::
 
-:::{.col-box-ruby-dark-short}
-This div has class `.col-box-ruby-dark-short`
+:::{.col-box-purple-short}
+This div has class `.col-box-purple-short`
 :::
 
 ::::

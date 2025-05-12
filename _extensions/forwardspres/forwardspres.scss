@@ -63,12 +63,15 @@ $callout-color-important: $red;
 
 // Create a map using color names
 $colors: (
-  'teal-light': $teal_light,
-  'ruby-light': $ruby_light,
-  'darkpurple-light': $darkpurple_light,
-  'ruby-dark': $red_dark,
+  'yellow': $yellow,
+  'peach': $peach,
+  'orange': $orange,
+  'plum': $plum,
+  'purple': $purple,
+  'pink': $pink,
+  'red-dark': $red_dark,
   'blue-dark': $blue_dark,
-  'teal-dark': $green_dark
+  'green-dark': $green_dark
 );
 
 // mixin for boxes with height parameter
