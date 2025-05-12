@@ -1,22 +1,18 @@
 /*-- scss:defaults --*/
 
-$font-family-sans-serif: Lato, Helvetica, sans-serif !default;
-$font-family-monospace: "Fira Mono", monospace;
-$headings-font-family: Lato, Helvetica, sans-serif !default;
+$font-family-sans-serif: "Atkinson Hyperlegible", Helvetica, sans-serif !default;
+$font-family-monospace: "Atkinson Hyperlegible Mono", monospace;
+$headings-font-family: "Atkinson Hyperlegible", Helvetica, sans-serif !default;
 
-//  Warwick colors 
-$aubergine: #3C1053;
-$aubergine85: #59346d;
-$aubergine70: #775887; 
-$aubergine50: #9e88a9;
-$aubergine30: #c5b7cb;
-$aubergine15: #e2dbe5;
+//  Forwards colours 
+$darkpurple: #200F48;
+$darkpurple30: #bcb7c8;
 
-$ruby_bright: #CB333B;
-$blue_bright: #00A9CE;
-$teal_bright: #6DCDB8;
-$orange_bright: #E87722;
-$gold_bright: #F1BE48;
+$plum: #992E7F;
+$pink: #D2436F;
+$red: #E95A61;
+$orange: #FD9567;
+$yellow: #FEE4A7;
 
 $ruby_dark: #9D2235;
 $blue_dark: #41748D;
@@ -26,9 +22,9 @@ $gold_dark: #D69A2D;
 
 $teal_light: #C4EBE4;  //teal 40%
 $ruby_light: #EFC2C4;  // ruby 30%
-$aubergine_light: $aubergine30;
+$darkpurple_light: $darkpurple30;
 
-$blue_mid: #0090AF; // 15% shade of $blue_bright
+$blue_mid: #0090AF; // 15% shade of $pink
 
 $gray: #58595B;
 $gray_dark: #383838; // this is text colour used on main Warwick site
@@ -38,21 +34,21 @@ $gray10: #e6e6e6; // % of black
 $gray05: #f2f2f2; // % of black
 $white: #ffffff;
 
-$primary: $aubergine !default;
+$primary: $darkpurple !default;
 
 $presentation-font-size-root: 32px;
 $code-block-font-size: .7em;
-$presentation-heading-font: Lato, Helvetica, sans-serif !default;
+$presentation-heading-font: $headings-font-family;
 $body-color: $gray_dark;
-$link-color: $blue_mid;
-$code-color: $ruby_bright;
+$link-color: $pink;
+$code-color: $plum;
 
 // MOST IMPORTANT: Define callout colors in scss:defaults section
-$callout-color-note: $blue_bright;
-$callout-color-caution: $gold_bright;
-$callout-color-tip: $teal_bright;
-$callout-color-warning: $orange_bright;
-$callout-color-important: $ruby_bright;
+$callout-color-note: $pink;
+$callout-color-caution: $orange;
+$callout-color-tip: $yellow;
+$callout-color-warning: $plum;
+$callout-color-important: $red;
 
 /*-- scss:rules --*/
 
@@ -60,7 +56,7 @@ $callout-color-important: $ruby_bright;
 $colors: (
   'teal-light': $teal_light,
   'ruby-light': $ruby_light,
-  'aubergine-light': $aubergine_light,
+  'darkpurple-light': $darkpurple_light,
   'ruby-dark': $ruby_dark,
   'blue-dark': $blue_dark,
   'teal-dark': $teal_dark
@@ -134,7 +130,7 @@ pre.sourceCode {
 #title-slide .title {
   font-size: 70px;
   padding-bottom: .25em;
-  color: $teal_bright;
+  color: $yellow;
 }
 
 #title-slide .subtitle {
@@ -220,23 +216,23 @@ kbd {
   color: $white;
 
   h1, h2, h3 {
-    color: $teal_bright;
+    color: $yellow;
     
     code {
-      color: $gold_bright;
+      color: $orange;
     }
   }
   
   .slide-background-content {
-    background-color: $aubergine;
+    background-color: $darkpurple;
   }
   
   a {
-    color: $blue_bright;
+    color: $pink;
   }
   
   p code {
-    color: $gold_bright;
+    color: $orange;
   }
   
   // Inverse callout backgrounds
