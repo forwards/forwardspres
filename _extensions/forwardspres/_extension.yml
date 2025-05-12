@@ -1,7 +1,14 @@
-title: forwardspres
+title: R Forwards Presentation
 quarto-required: ">=1.6.0"
 contributes:
   formats:
+    common:
+      knitr:
+        opts_chunk:
+          warning: false
+          message: false
+          fig.align: "center"
+          fig.show: "hold"
     revealjs:
       theme: [default, forwardspres.scss] 
       highlight-style: forwardspres.theme
@@ -10,3 +17,8 @@ contributes:
         data-background-image: forwards_hex_solid_border.svg
         data-background-size: 7%
         data-background-position: 97% 5%
+      link-external-newwindow: true
+      width: 1280
+      height: 720
+      keep-md: false
+      embed-resources: true
