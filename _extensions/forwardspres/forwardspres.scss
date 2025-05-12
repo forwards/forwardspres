@@ -20,10 +20,13 @@ $purple: #5931A5;
 $gold: #A59331;
 $peach: #FDC88D;
 
-$ruby_dark: #9D2235;
-$blue_dark: #41748D;
-$teal_dark: #507F70;
-$orange_dark: #BE531C;
+$blue_dark: #222f73;
+$green_dark: #22733e;
+$red_dark: #a33f44;
+$orange_dark: #b16848;
+$peach_dark: #b18c63;
+
+
 $gold_dark: #D69A2D;
 
 $teal_light: #C4EBE4;  //teal 40%
@@ -63,9 +66,9 @@ $colors: (
   'teal-light': $teal_light,
   'ruby-light': $ruby_light,
   'darkpurple-light': $darkpurple_light,
-  'ruby-dark': $ruby_dark,
+  'ruby-dark': $red_dark,
   'blue-dark': $blue_dark,
-  'teal-dark': $teal_dark
+  'teal-dark': $green_dark
 );
 
 // mixin for boxes with height parameter
@@ -247,19 +250,19 @@ kbd {
   }
 
   div.callout-warning.callout-style-default .callout-title {
-    background-color: $gold_dark !important;
+    background-color: $orange_dark !important;
   }
 
   div.callout-important.callout-style-default .callout-title {
-    background-color: $ruby_dark !important;
+    background-color: $red_dark !important;
   }
 
   div.callout-tip.callout-style-default .callout-title {
-    background-color: $teal_dark !important;
+    background-color: $green_dark !important;
   }
 
   div.callout-caution.callout-style-default .callout-title {
-    background-color: $orange_dark !important;
+    background-color: $peach_dark !important;
   }
   
   // white icons in inverse mode
