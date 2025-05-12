@@ -8,11 +8,17 @@ $headings-font-family: "Atkinson Hyperlegible", Helvetica, sans-serif !default;
 $darkpurple: #200F48;
 $darkpurple30: #bcb7c8;
 
-$plum: #992E7F;
+$plum: #A5317D;
 $pink: #D2436F;
 $red: #E95A61;
 $orange: #FD9567;
 $yellow: #FEE4A7;
+
+$blue: #3143A5;
+$green: #31A559;
+$purple: #5931A5;
+$gold: #A59331;
+$peach: #FDC88D;
 
 $ruby_dark: #9D2235;
 $blue_dark: #41748D;
@@ -44,10 +50,10 @@ $link-color: $pink;
 $code-color: $plum;
 
 // MOST IMPORTANT: Define callout colors in scss:defaults section
-$callout-color-note: $pink;
-$callout-color-caution: $orange;
-$callout-color-tip: $yellow;
-$callout-color-warning: $plum;
+$callout-color-note: $blue;
+$callout-color-caution: $peach;
+$callout-color-tip: $green;
+$callout-color-warning: $orange;
 $callout-color-important: $red;
 
 /*-- scss:rules --*/
