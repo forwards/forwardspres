@@ -12,7 +12,7 @@ It offers the following:
 - A custom syntax highlighting theme consistent with the theme colours
 - Additional convenience classes for sizing and aligning
 
-It is an adaptation of [warwickpres](https://Warwick-Stats-Resources.github.io/warwickpres) (both developed by [Ella Kaye](https://github.com/EllaKaye))
+It is an adaptation of [warwickpres](https://github.com/Warwick-Stats-Resources/warwickpres) (both developed by [Ella Kaye](https://github.com/EllaKaye))
 
 ## Installing forwardspres
 
